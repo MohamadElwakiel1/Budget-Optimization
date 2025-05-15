@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "cm3hri9CMX4=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\admin\\Downloads\\Budget Optimization\\BudgetOptimization.Infrastructure\\BudgetOptimization.Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.ml.onnxruntime\\1.22.0\\microsoft.ml.onnxruntime.1.22.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.ml.onnxruntime.managed\\1.22.0\\microsoft.ml.onnxruntime.managed.1.22.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\system.numerics.tensors\\9.0.0\\system.numerics.tensors.9.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
