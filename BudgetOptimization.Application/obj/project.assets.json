@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net9.0": {}
+    "net9.0": {
+      "BudgetOptimization.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/BudgetOptimization.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BudgetOptimization.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "BudgetOptimization.Domain/1.0.0": {
+      "type": "project",
+      "path": "../BudgetOptimization.Domain/BudgetOptimization.Domain.csproj",
+      "msbuildProject": "../BudgetOptimization.Domain/BudgetOptimization.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net9.0": []
+    "net9.0": [
+      "BudgetOptimization.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\admin\\.nuget\\packages\\": {},
@@ -38,7 +57,11 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\admin\\Downloads\\Budget Optimization\\BudgetOptimization.Domain\\BudgetOptimization.Domain.csproj": {
+              "projectPath": "C:\\Users\\admin\\Downloads\\Budget Optimization\\BudgetOptimization.Domain\\BudgetOptimization.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -72,7 +95,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
