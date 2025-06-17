@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BudgetOptimization.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b2fdb648714d9bf1c5f98a0d81cdc94c8ad59941")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b9002d775615b2cd712fd0c1e498b89d907cc003")]
 [assembly: System.Reflection.AssemblyProductAttribute("BudgetOptimization.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BudgetOptimization.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
